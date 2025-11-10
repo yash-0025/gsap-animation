@@ -27,7 +27,7 @@ const HeroSection = () => {
     scope: container
   });
 
-  return;
+  return (
   <section ref={container} className="section section-dark">
     <div className="text-center">
       <h1 className="hero-title text-6xl md:text-8xl font-bold">Animate</h1>
@@ -35,5 +35,8 @@ const HeroSection = () => {
         With GSAP and Lenis
       </p>
     </div>
-  </section>;
+  </section>
+  )
 };
+
+export default HeroSection;
