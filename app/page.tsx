@@ -4,6 +4,7 @@ import FeaturesSection from '@/components/sections/FeatureSection';
 import ScrollTriggerSection from '@/components/sections/ScrollTriggerSection';
 import TimelineSection from '@/components/sections/TimelineSections';
 import TextPluginSection from '@/components/sections/TextPluginSection';
+import MorphSVGSection from '@/components/sections/MorphSVGSection';
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
      {/*  <ScrollTriggerSection />
       <AboutSection /> */}
       <TextPluginSection />
+      <MorphSVGSection />
       <FeaturesSection />
 
       <section className='section section-light'>
