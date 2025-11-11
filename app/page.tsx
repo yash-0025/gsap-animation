@@ -3,6 +3,7 @@ import AboutSection from '@/components/sections/AboutSection';
 import FeaturesSection from '@/components/sections/FeatureSection';
 import ScrollTriggerSection from '@/components/sections/ScrollTriggerSection';
 import TimelineSection from '@/components/sections/TimelineSections';
+import TextPluginSection from '@/components/sections/TextPluginSection';
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
       <TimelineSection />
      {/*  <ScrollTriggerSection />
       <AboutSection /> */}
+      <TextPluginSection />
       <FeaturesSection />
 
       <section className='section section-light'>
