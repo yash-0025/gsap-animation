@@ -2,13 +2,15 @@ import HeroSection from '@/components/sections/HeroSection';
 import AboutSection from '@/components/sections/AboutSection';
 import FeaturesSection from '@/components/sections/FeatureSection';
 import ScrollTriggerSection from '@/components/sections/ScrollTriggerSection';
+import TimelineSection from '@/components/sections/TimelineSections';
 
 export default function Home() {
   return (
     <main>
       <HeroSection />
-      <ScrollTriggerSection />
-      <AboutSection />
+      <TimelineSection />
+     {/*  <ScrollTriggerSection />
+      <AboutSection /> */}
       <FeaturesSection />
 
       <section className='section section-light'>
