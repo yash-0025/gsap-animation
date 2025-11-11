@@ -30,6 +30,7 @@ const LenisProvider = ({children} : LenisProviderProps) => {
             duration: 1.2,
             easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
             smoothWheel: true,
+            syncTouch: false,
         })
         // 3. Setup GSAP <-> lenis integration (THE MAGIC)
         ScrollTrigger.scrollerProxy(document.body, {
